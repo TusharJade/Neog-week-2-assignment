@@ -27,11 +27,11 @@ li {
     padding: 4px 10px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.anchor1{
+.anchor1 {
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ a{
 
 
 
-.main{
+.main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -63,9 +63,10 @@ a{
 
 .image {
     width: 300px;
-    height: 200;
+    height: 185px;
     border-radius: 1rem 1rem 0rem 0rem;
 }
+
 .container {
     width: 300px;
     height: 350px;
@@ -83,66 +84,132 @@ a{
     color: white;
 }
 
-.name{
+.name {
     color: rgb(197, 193, 207);
     font-size: 0.9rem;
     font-weight: 300;
-    margin-top: 0.8rem ;
+    margin-top: 0.8rem;
     margin-left: 1rem;
 }
 
-.company{
+.company {
     color: rgb(197, 193, 207);
     font-size: 0.9rem;
     font-weight: 300;
-    margin-top: 0.8rem ;
+    margin-top: 0.8rem;
     margin-left: 1rem;
 }
 
-.btn-card{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1.2rem;
+.btn-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2rem;
 }
 
-.like{
+.like {
     color: rgb(255, 255, 255);
 }
 
-.like:hover{
-  color: rgb(141, 134, 134);
+.like:hover {
+    color: rgb(141, 134, 134);
 
 }
 
-.fa-heart{
+.fa-heart {
     color: rgb(253, 246, 246);
 }
 
-.fa-comment{
+.fa-comment {
     color: rgb(253, 246, 246);
 }
 
-.fa-youtube{
+.fa-youtube {
     color: rgb(253, 8, 8);
 }
 
 
 /*second basic text over media */
 
-.text-1{
-position: absolute;
-margin-left: 1rem;
-margin-top: 0.6rem;
-font-size: 1.3rem;
-font-weight: 700;
-color: white;
+.container-2 {
+    width: 300px;
+    height: 278px;
+    margin: 3rem;
+    box-shadow: 2px 4px 6px 1px black;
+    background-color: #222831;
+    border-radius: 1rem;
+
 }
 
-.name-1{
+.name-1 {
     color: rgb(197, 193, 207);
     font-size: 0.9rem;
     font-weight: 300;
-    margin-top: 0.8rem ;
+    margin-top: 0.2rem;
     margin-left: 1rem;
-    position: absolute;
 }
+
+.position2b {
+    position: relative;
+    bottom: 4rem;
+}
+
+.btn-card-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.company-1 {
+    color: rgb(197, 193, 207);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 3.8rem;
+}
+
+/* Third Basic w/header */
+
+.container-3 {
+    width: 300px;
+    height: 350px;
+    margin: 3rem;
+    box-shadow: 2px 4px 6px 1px black;
+    background-color: #222831;
+    border-radius: 1rem;
+}
+
+.image-3 {
+    width: 300px;
+    height: 185px;
+    position: relative;
+    top: 4.3rem;
+}
+
+.text-3 {
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -11.8rem;
+}
+
+.name-3 {
+    color: rgb(197, 193, 207);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    position: relative;
+    top: -12.3rem;
+}
+
+
+/* Fourth Basic w/ only buttons */
+
+
