@@ -1,38 +1,148 @@
-*{
+* {
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
-header{
+header {
     background-color: rgb(236, 229, 243);
     border-radius: 10px;
     width: 90vw;
     margin: auto;
-    
-}
-.div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
+    padding: 10px;
+
 }
 
-li{
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+li {
     list-style: none;
-    padding: 10px;
+    padding: 4px 10px;
 }
 
 a{
     text-decoration: none;
 }
 
-a:hover{
-    color:rgb(164, 107, 221)
+.anchor1{
+    text-decoration: none;
 }
 
-.head4{
+.anchor1:hover {
+    color: rgb(164, 107, 221)
+}
+
+.head4 {
     font-size: 1.5rem;
     text-align: center;
-   margin: 0;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* first basic card */
+
+.image {
+    width: 300px;
+    height: 200;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.container {
+    width: 300px;
+    height: 350px;
+    margin: 3rem;
+    box-shadow: 2px 4px 6px 1px black;
+    background-color: #222831;
+    border-radius: 1rem;
+}
+
+.text {
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.name{
+    color: rgb(197, 193, 207);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.8rem ;
+    margin-left: 1rem;
+}
+
+.company{
+    color: rgb(197, 193, 207);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.8rem ;
+    margin-left: 1rem;
+}
+
+.btn-card{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2rem;
+}
+
+.like{
+    color: rgb(255, 255, 255);
+}
+
+.like:hover{
+  color: rgb(141, 134, 134);
+
+}
+
+.fa-heart{
+    color: rgb(253, 246, 246);
+}
+
+.fa-comment{
+    color: rgb(253, 246, 246);
+}
+
+.fa-youtube{
+    color: rgb(253, 8, 8);
+}
+
+
+/*second basic text over media */
+
+.text-1{
+position: absolute;
+margin-left: 1rem;
+margin-top: 0.6rem;
+font-size: 1.3rem;
+font-weight: 700;
+color: white;
+}
+
+.name-1{
+    color: rgb(197, 193, 207);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.8rem ;
+    margin-left: 1rem;
+    position: absolute;
 }
