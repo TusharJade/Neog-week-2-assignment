@@ -69,6 +69,7 @@ a {
     position: relative;
     top: -3.1rem;
     left:11.5rem;
+    z-index: 1;
 }
 .one{
     background-color: rgb(79, 79, 216) ;
@@ -79,6 +80,7 @@ a {
     left: 13rem;
     font-weight: bolder;
     color: white;
+    z-index: 1;
 }
 
 
