@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+header {
+    background-color: rgb(236, 229, 243);
+    border-radius: 10px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 5rem;
+
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 4px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anchor1 {
+    text-decoration: none;
+    color: rgb(75, 75, 94);
+}
+
+.anchor1:hover {
+    color: rgb(187, 153, 221)
+}
+
+.head4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.container {
+    margin: auto;
+    box-shadow: 1px 1px 2px 2px rgb(231, 231, 231);
+    width: 400px;
+    height: 550px;
+}
+
+.class{
+    padding: 0rem 3rem;
+    
+}
+
+.class:nth-child(1){
+    padding-top:3rem ;
+
+}
+
+.no4{
+    width: 1.2rem;
+    height: 1..1rem;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    background-color:rgb(79, 79, 216) ;
+    position: relative;
+    top: -3.1rem;
+    left: 11.8rem;
+}
+.one{
+    background-color: rgb(79, 79, 216) ;
+    text-align: center;
+    border-radius: 100%;
+    padding:0.6rem 0.7rem;
+    position: relative;
+    top: -3rem;
+    left: 13rem;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.act{
+ padding: 0.6rem 1rem;
+ background-color: rgb(79, 79, 216) ;
+border-radius: 0.3rem;
+position: relative;
+left: 17.6rem;
+top: -2.2rem;
+z-index: 1;
+color: white;
+}
+
+.eig{
+background-color: rgb(238, 41, 74);
+padding: 0.3rem 0.5rem;
+border-radius:100% ;
+position: relative;
+left: 11.4rem;
+top: -3.39rem;
+z-index: 2;
+color: white;
+}
+
+
+.hide{
+background-color: rgb(79, 79, 216) ;
+color: black;
+padding: 0.5rem 1.3rem;
+border-radius: 0.3rem;
+color: white;
+position: relative;
+top: -2.2rem;
+left: 18.2rem;
+z-index: 1;
+}
+
+.seven{
+color: white;
+background-color: tomato;
+padding: 0.25rem 0.5rem;
+border-radius: 100%;
+position: relative;
+top: -3.3rem;
+left: 17rem;
+z-index: 2;
+}
+
+.fas{
+ font-size: 1.5rem;
+ position: relative;
+ top: -2.6rem;
+ left: 11.9rem;
+ z-index: 1;
+}
+
+.fift{
+    background-color: red;
+    padding: 0.2rem 0.17rem;
+    border-radius: 1000%;
+    position: relative;
+    top: -3.53rem;
+    left: 10.79rem;
+    z-index: 2;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 2.6rem;
+}
+
+.online{
+    background-color: rgb(75, 202, 75);
+    border-radius:100%;
+    position: relative;
+    padding: 0.1rem 0.3rem;
+    top: -2rem;
+    left: 8.7rem;
+    color:   rgb(75, 202, 75);
+}
