@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+header {
+    background-color: rgb(236, 229, 243);
+    border-radius: 10px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 4rem;
+
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+li {
+    list-style: none;
+    padding: 4px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anchor1 {
+    text-decoration: none;
+    color:rgb(75, 75, 94);
+}
+
+.anchor1:hover {
+    color: rgb(187, 153, 221)
+}
+
+.head4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 230px;
+    margin: auto;
+    box-shadow: 1px 1px 4px 2px rgb(219, 219, 219);
+}
+
+.context{
+    padding: 0.3rem;
+    text-align:justify;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 1.2rem;
+    padding: 0.2rem;
+}
+
+.sub{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-left: 0.23rem;
+}
+
+.fas{
+ padding: 0rem 1.3rem;
+}
+
+p:hover{
+    background-color: rgb(230, 213, 230);
+    border-radius: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}

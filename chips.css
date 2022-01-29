@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+header {
+    background-color: rgb(236, 229, 243);
+    border-radius: 10px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 4px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anchor1 {
+    text-decoration: none;
+    color:rgb(75, 75, 94);
+}
+
+.anchor1:hover {
+    color: rgb(164, 107, 221)
+}
+
+.head4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+/* chips */
+
+.container{
+    background-color:  rgb(28 25 23);
+    color: rgb(173, 173, 173);
+    display: flex;
+    margin-top: 5rem;
+
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem; 
+}
+
+.chips{
+    padding: 0.4rem 1rem;
+    background-color: rgb(89, 89, 99);
+    border-radius: 0.3rem;
+    margin: 1rem;
+}
+
+.far{
+    font-weight: 700;
+}

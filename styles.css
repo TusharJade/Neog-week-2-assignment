@@ -33,10 +33,11 @@ a {
 
 .anchor1 {
     text-decoration: none;
+    color:rgb(75, 75, 94);
 }
 
 .anchor1:hover {
-    color: rgb(164, 107, 221)
+    color: rgb(187, 153, 221)
 }
 
 .head4 {
