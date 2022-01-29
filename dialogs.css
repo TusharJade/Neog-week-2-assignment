@@ -50,6 +50,7 @@ a {
     box-shadow: 1px 1px 2px 2px rgb(228, 226, 226);
     width: 250px;
     height: 150px;
+    margin: 2rem;
 }
 
 .text-1{
@@ -83,6 +84,7 @@ justify-content: end;
     box-shadow: 1px 1px 2px 2px rgb(228, 226, 226);
     width: 200px;
     height: 180px;
+    margin: 2rem;
 }
 
 .far{
