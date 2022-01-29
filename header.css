@@ -59,14 +59,15 @@ a {
     background-color: hsl(246, 55%, 59%);
     width: 500px;
     margin: auto;
-    height: 50px;
     box-shadow: 1px 1px 4px 2px rgb(219, 219, 219);
-    margin: 2rem;
+    margin: 1rem;
     color: white;
 }
 
 .text{
      margin-left: 2rem;
+   
+     
 }
 
 .navigation{
@@ -89,9 +90,9 @@ a {
     padding: 1rem 1rem;
     background-color: hsl(246, 55%, 59%);
     margin: auto;
-    height: 50px;
+  
     box-shadow: 1px 1px 4px 2px rgb(219, 219, 219);
-    margin: 2rem;
+    margin: 1rem;
     border-bottom-right-radius: 1rem;
     color: white;
 }
@@ -104,14 +105,15 @@ a {
     background-color: hsl(246, 55%, 59%);
     width: 500px;
     margin: auto;
-    height: 100px;
+    height: 120px;
     box-shadow: 1px 1px 4px 2px rgb(219, 219, 219);
     margin: 1rem;
     color: white;
 }
 
 .text-3{
-     margin-left: 2rem;
+     
      position: relative;
      top: 3rem;
+     left: 1.7rem;
 }
