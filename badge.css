@@ -62,8 +62,7 @@ a {
 }
 
 .no4{
-    width: 1.2rem;
-    height: 1..1rem;
+    padding: 0.1rem 0.3rem;
     text-align: center;
     border-radius: 100%;
     color: white;
@@ -74,7 +73,6 @@ a {
 }
 .one{
     background-color: rgb(79, 79, 216) ;
-    text-align: center;
     border-radius: 100%;
     padding:0.54rem 0.8rem;
     position: relative;

@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 4rem;
 }
 
 li {
@@ -38,3 +39,60 @@ a {
     text-align: center;
     margin: 10px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333333;
+    color: white;
+    border-radius: 0.3rem;
+    width: 500px;
+    margin: auto;
+    margin: 2rem;
+}
+
+.text-2{
+  color: blueviolet;
+}
+
+.text-3{
+    font-weight: 900;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333333;
+    color: white;
+    border-radius: 0.3rem;
+    width: 500px;
+    height: 105px;
+    margin: auto;
+    margin: 2rem;
+}
+
+.text2{
+    color: blueviolet;
+    position: relative;
+    left:17rem;
+    top: -1rem;
+  }
+  
+  .text3{
+      font-weight: 900;
+      position: relative;
+      left:5.3rem;
+      top: -1rem;
+  }
+
+  .text1{
+     padding-left: 1rem;
+  }
